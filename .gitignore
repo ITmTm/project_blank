@@ -1,0 +1,9 @@
+/node_modules
+/app/*.html
+/app/images/*
+!/app/images/src
+package-lock.json
+/app/js/main.min.js
+/app/css
+/dist/*
+!/dist/.gitkeep

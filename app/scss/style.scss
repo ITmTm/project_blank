@@ -1,0 +1,20 @@
+@use '../../node_modules/normalize.css/normalize';
+@use '../../node_modules/swiper/swiper-bundle';
+
+
+@use 'keyframes' as *;
+@use 'hovers' as *;
+
+@use "libs/fonts" as *;
+@use "libs/overall" as *;
+@use "libs/reset" as *;
+
+@use "libs/variables" as *;
+
+
+@use "blocks/header";
+// остальные блоки
+
+@use "blocks/footer";
+
+@use 'media/index' as *;

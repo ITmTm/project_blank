@@ -1,0 +1,183 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes custom-rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    20% {
+        transform: rotate(-30deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    70% {
+        transform: rotate(150deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-with-translate {
+    from {
+        transform: rotate(0) translateY(-50%);
+    }
+
+    to {
+        transform: rotate(360deg) translateY(-50%);
+    }
+}
+
+@keyframes smoothBlock {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 260px;
+    }
+}
+
+@keyframes content {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(5%);
+        transform: translateY(5%);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+}
+
+@keyframes scale-bg {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0%;
+    }
+}
+
+@keyframes left-right {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes top-bottom {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes jump {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    20% {
+        transform: scale3d(.7, 1.4, 1);
+    }
+
+    80% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    100% {
+        transform: scale3d(1.4, .7, 1);
+    }
+}
+
+@keyframes animationLine {
+    0% {
+        transform: none;
+    }
+
+    25% {
+        transform: scale3d(1, 2, 1);
+    }
+
+    50% {
+        transform: none;
+    }
+
+    75% {
+        transform: scale3d(1, -2, 1);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes animationLine2 {
+    0% {
+        transform: none;
+    }
+
+    25% {
+        transform: scale3d(1.5, 1, 1);
+    }
+
+    50% {
+        transform: none;
+    }
+
+    75% {
+        transform: scale3d(1.2, 1, 1);
+    }
+
+    100% {
+        transform: none;
+    }
+}
